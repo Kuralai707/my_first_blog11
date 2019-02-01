@@ -4,4 +4,5 @@ urlpatterns = [
     path('', views.main, name='main'),
 path ('gallery', views.gallery, name='gallery'),
     path ('regis', views.regis, name='regis'),
+    path ('news', views.news, name='news'),
     ]
